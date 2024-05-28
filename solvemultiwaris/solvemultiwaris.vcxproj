@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{784face2-aa98-44be-b392-807c3682e0f2}</ProjectGuid>
-    <RootNamespace>abstarksi</RootNamespace>
+    <ProjectGuid>{724868ef-669b-422c-a5d6-fe8a83a3c0ef}</ProjectGuid>
+    <RootNamespace>solvemultiwaris</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="abstarksi.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="abstraksi.h" />
+    <ClCompile Include="solvemultiwaris.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
